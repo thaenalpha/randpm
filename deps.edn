@@ -1,7 +1,10 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
  :aliases
- {:run-m {:main-opts ["-m" "thaenalpha.randpm"]}
+ {:rand-pm {:main-opts ["-m" "thaenalpha.randpm"]}
+  :rand-ompth {:main-opts ["--main" "thaenalpha.rand-oh-my-posh-themes"]}
+  :rand-c {:exec-fn thaenalpha.randpm/crypto}
+  :rand-ua {:exec-fn thaenalpha.randpm/archive-format}
   :test {:extra-paths ["test"]
          :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}}}
   :runner
