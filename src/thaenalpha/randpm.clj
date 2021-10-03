@@ -3,7 +3,7 @@
 (defn -main
   "Random windows package managers"
   []
-  (println (rand-nth ["winget" "choco" "scoop"])))
+  (println (rand-nth ["winget" "choco" "scoop" "npackd"])))
 
 (defn crypto
   "Random Crypto currencies"
