@@ -1,2 +1,3 @@
+@echo off
 cd \tools\randpm
-deps -M:run-m
+deps -M:rand-pm
