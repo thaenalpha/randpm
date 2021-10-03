@@ -9,8 +9,8 @@
   "Random Crypto currencies"
   [opts]
   (println (rand-nth ["BTC" "ETH" "LINK" "BNB" "TRX" "DOT" "EOS" "LTC" "BCH" "XRP" "ETC" "FIL" "ADA"
-           "burger" "ont" "cake" "btt" "zil" "xlm" "jfin" "crv" "doge" "sand" "rune" "unfi" "OMG"
-           "fet" "xvs" "alpha" "fio" "icp" "Theta" "waves"])))
+                      "burger" "ont" "cake" "btt" "zil" "xlm" "jfin" "crv" "doge" "sand" "rune" "unfi" "OMG"
+                      "fet" "xvs" "alpha" "fio" "icp" "Theta" "waves"])))
 
 (defn archive-format
   "Random Oh-My-Zsh Universal archive plugin format"
